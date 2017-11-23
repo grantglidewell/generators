@@ -10,7 +10,7 @@ render(html`
 </div>
 </div>`, slidePlane);
 
-const renderSlide = (title, text, img, ...items) => {
+const renderSlide = ({title, text, img, items}) => {
   render(html`
   <div class="slide">
   <h1>${title}</h1>
@@ -29,13 +29,46 @@ const renderSlide = (title, text, img, ...items) => {
 };
 
 function* presentationSlides() {
-  yield renderSlide('Title 1', null, 'img.svg', 'item', 'item2', 'item3');
-  yield renderSlide('Title 2', null, 'img.svg', 'item', 'item2', 'item3');
-  yield renderSlide('Title 3', 'i can insert text in here to override list items', 'img.svg', 'item', 'thing', 'item3');
-  yield renderSlide('No Image, No Array', null, 'img.svg');
-  yield renderSlide('Title 5', null, 'img.svg', 'item', 'item2', 'item3');
-  yield renderSlide('Title 6', null, 'img.svg', 'item', 'item2', 'item3');
-
+  yield renderSlide({
+    title: 'Slide 1',
+    text: 'this is the text',
+    img: './img.svg',
+    items: [
+      'thing1', 'thing2', 'another thing'
+    ]
+  });
+  yield renderSlide({
+    title: 'slide 2',
+    img: './img.svg',
+    text: null,
+    items: [
+      'thingchanged1', 'thing2', 'another thing'
+    ]
+  });
+  yield renderSlide({
+    title: 'slide 3',
+    text: null,
+    img: './img.svg',
+    items: [
+      'thing1', 'thingchanged2', 'another thing'
+    ]
+  });
+  yield renderSlide({
+    title: 'text null',
+    img: './img.svg',
+    text: null,
+    items: [
+      'thingchanged1', 'thing2', 'another thing'
+    ]
+  });
+  yield renderSlide({
+    title: 'last slide',
+    text: 'this is the text',
+    img: './img.svg',
+    items: [
+      'thing1', 'thingchanged2', 'another thing'
+    ]
+  });
 }
 
 const nextSlide = presentationSlides();
