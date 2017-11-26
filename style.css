@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif
+}
+#container {
+  background: linear-gradient(to bottom, #05abe0 0%,#d676db 100%);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  font-size: 200%;
+  height: 100vh;
+  width: 100vw;
+}
+.title {
+  font-size: 250%;
+  padding-left: 5vw;
+}
+.content {
+  margin: 5vh;
+  width: 90vw;
+  align-self: center;
+}
+img {
+  width: 80vw;
+  height: auto;
+}
