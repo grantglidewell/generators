@@ -115,13 +115,13 @@ const slides = [
   },
   {
     title: 'Generators - Usecases',
-    text: 'Why would I use this instead of other ways to accomplish the same thing?',
+    text: 'Why would I use this?',
     img: '',
     items: []
   },
   {
     title: 'Generators - Usecases',
-    text: '',
+    text: 'We could use generators for fetch flow control',
     img: './img/flow-example.png',
     items: []
   },
@@ -158,7 +158,7 @@ const slides = [
     items: [
       'a * after function allows you to use yield',
       'create a constant to call the generator',
-      'the next() function move to the next yield',
+      'the next() function moves to the next yield',
     ]
   },
   {
@@ -167,8 +167,8 @@ const slides = [
     items: [
       'a * after function allows you to use yield',
       'create a constant to call the generator',
-      'the next() function move to the next yield',
-      'the object is returned from the generator',
+      'the next() function moves to the next yield',
+      'an object is returned from the generator',
     ]
   },
   {
@@ -177,9 +177,9 @@ const slides = [
     items: [
       'a * after function allows you to use yield',
       'create a constant to call the generator',
-      'the next() function move to the next yield',
-      'the object is returned from the generator',
-      'this object had a value and done key'
+      'the next() function moves to the next yield',
+      'an object is returned from the generator',
+      'this object has a value and done key'
     ]
   },
   {
