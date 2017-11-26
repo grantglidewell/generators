@@ -1,0 +1,17 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup"],
+    "no-plusplus": "off",
+    "object-curly-newline": ["error", {
+        "ObjectExpression": "always",
+        "ObjectPattern": { "multiline": true }
+    }]
+  }
+}
