@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Generators',
-    text: 'A normal function, but not really...',
+    text: 'Normal functions, but not really...',
     img: '',
     items: [],
   },
@@ -12,41 +12,38 @@ export default [
     items: [
       'normal functions have one return',
       'generators can return multiple values',
-      'syntax is familiar',
-      'use cases are...',
+      'syntax is familiar', 'use cases are...',
       'another thing about generators',
     ],
   },
   {
     title: 'Generators - Syntax',
-    img: 'img/syntax.png',
+    img: './img/syntax.png',
     text: 'Same Syntax as a Function constructor, just add a * between the function keyword and the name',
     items: [],
   },
   {
     title: 'Generators - Syntax',
     text: 'Generators use the yield keyword as many times as is necessary, in place of a single return statement',
-    img: 'img/syntax.png',
+    img: './img/syntax.png',
     items: [],
   },
   {
     title: 'Generators - Syntax',
     text: 'We then use the generator by defining a constatnt',
-    img: 'img/syntax.png',
+    img: './img/syntax.png',
     items: [],
   },
   {
     title: 'Generators - Output',
     text: null,
-    img: 'img/yield-object.png',
-    items: [
-      'we run the generator by calling .next() on the const',
-    ],
+    img: './img/yield-object.png',
+    items: ['we run the generator by calling .next() on the const'],
   },
   {
     title: 'Generators - Output',
     text: null,
-    img: 'img/yield-object.png',
+    img: './img/yield-object.png',
     items: [
       'we run the generator by calling .next() on the const',
       'the output is an object that looks like this',
@@ -55,7 +52,7 @@ export default [
   {
     title: 'Generators - Output',
     text: null,
-    img: 'img/yield-object.png',
+    img: './img/yield-object.png',
     items: [
       'we run the generator by calling .next() on the const',
       'the output is an object that looks like this',
@@ -65,7 +62,7 @@ export default [
   {
     title: 'Generators - Output',
     text: null,
-    img: 'img/yield-object.png',
+    img: './img/yield-object.png',
     items: [
       'we run the generator by calling .next() on the const',
       'the output is an object that looks like this',
@@ -76,13 +73,13 @@ export default [
   {
     title: 'Generators - Output',
     text: 'The yield is different each time',
-    img: 'img/yield-sequence.png',
+    img: './img/yield-sequence.png',
     items: [],
   },
   {
     title: 'Generators - Output',
     text: 'What happens when it is finally done?',
-    img: 'img/done-true.png',
+    img: './img/done-true.png',
     items: [],
   },
   {
@@ -94,19 +91,19 @@ export default [
   {
     title: 'Generators - Usecases',
     text: 'We could use generators for fetch flow control',
-    img: 'img/flow-example.png',
+    img: './img/flow-example.png',
     items: [],
   },
   {
     title: 'Generators - Usecases',
     text: 'The first run fetches all these users, I need their ids to fetch their posts',
-    img: 'img/fetch-users.png',
+    img: './img/fetch-users.png',
     items: [],
   },
   {
     title: 'Generators - Usecases',
     text: 'Boom! we have all the posts!',
-    img: 'img/fetch-posts.png',
+    img: './img/fetch-posts.png',
     items: [],
   },
   {
@@ -155,12 +152,14 @@ export default [
     ],
   },
   {
-    title: 'Generators',
+    title: 'Generators - Fin',
     text: null,
     items: [
+      'Quentions?',
       'Grant Glidewell',
       'https://github.com/ggcadc',
       'this.prototype.grant@gmail.com',
     ],
   },
+
 ];
