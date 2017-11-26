@@ -69,14 +69,14 @@ const slides = [
     title: 'Generators - Output',
     text: null,
     img: './img/yield-object.png',
-    items: ['we run the generator with .next()']
+    items: ['we run the generator by calling .next() on the const']
   },
   {
     title: 'Generators - Output',
     text: null,
     img: './img/yield-object.png',
     items: [
-      'we run the generator with .next()', 
+      'we run the generator by calling .next() on the const', 
       'the output is an object that looks like this'
     ]
   },
@@ -85,7 +85,7 @@ const slides = [
     text: null,
     img: './img/yield-object.png',
     items: [
-      'we run the generator with .next()', 
+      'we run the generator by calling .next() on the const', 
       'the output is an object that looks like this', 
       'it has a value(the result of the yield), and a done key'
     ]
@@ -95,7 +95,7 @@ const slides = [
     text: null,
     img: './img/yield-object.png',
     items: [
-      'we run the generator with .next()', 
+      'we run the generator by calling .next() on the const', 
       'the output is an object that looks like this', 
       'it has a value(the result of the yield), and a done key', 
       'what happens if we keep calling .next()?'
@@ -103,7 +103,7 @@ const slides = [
   },
   {
     title: 'Generators - Output',
-    text: '',
+    text: 'The yield is different each time',
     img: './img/yield-sequence.png',
     items: []
   },
@@ -133,9 +133,63 @@ const slides = [
   },
   {
     title: 'Generators - Usecases',
-    text: 'Boom!',
+    text: 'Boom! we have all the posts!',
     img: './img/fetch-posts.png',
     items: []
+  },
+  {
+    title: 'Generators - Summary',
+    text: null,
+    items: [
+      'a * after function allows you to use yield',
+    ]
+  },
+  {
+    title: 'Generators - Summary',
+    text: null,
+    items: [
+      'a * after function allows you to use yield',
+      'create a constant to call the generator',
+    ]
+  },
+  {
+    title: 'Generators - Summary',
+    text: null,
+    items: [
+      'a * after function allows you to use yield',
+      'create a constant to call the generator',
+      'the next() function move to the next yield',
+    ]
+  },
+  {
+    title: 'Generators - Summary',
+    text: null,
+    items: [
+      'a * after function allows you to use yield',
+      'create a constant to call the generator',
+      'the next() function move to the next yield',
+      'the object is returned from the generator',
+    ]
+  },
+  {
+    title: 'Generators - Summary',
+    text: null,
+    items: [
+      'a * after function allows you to use yield',
+      'create a constant to call the generator',
+      'the next() function move to the next yield',
+      'the object is returned from the generator',
+      'this object had a value and done key'
+    ]
+  },
+  {
+    title: 'Generators',
+    text: null,
+    items: [
+      'Grant Glidewell',
+      'https://github.com/ggcadc',
+      'this.prototype.grant@gmail.com',
+    ]
   },
 
 ];
