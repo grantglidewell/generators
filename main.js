@@ -21,7 +21,9 @@ const renderSlide = ({ title, text, img, items }) => {
     </ul> `
     :
     text}
-    <img src="${img}"></img>
+    <div>
+      <img src="${img}"></img>
+    </div>
   </div>
 </div>
   `, slidePlane);
@@ -101,7 +103,7 @@ const slides = [
   },
   {
     title: 'Generators - Output',
-    text: null,
+    text: '',
     img: './img/yield-sequence.png',
     items: []
   },
@@ -112,9 +114,27 @@ const slides = [
     items: []
   },
   {
-    title: 'Generators - Output',
-    text: 'What happens when it is finally done?',
-    img: './img/done-true.png',
+    title: 'Generators - Usecases',
+    text: 'Why would I use this instead of other ways to accomplish the same thing?',
+    img: '',
+    items: []
+  },
+  {
+    title: 'Generators - Usecases',
+    text: '',
+    img: './img/flow-example.png',
+    items: []
+  },
+  {
+    title: 'Generators - Usecases',
+    text: 'The first run fetches all these users, I need their ids to fetch their posts',
+    img: './img/fetch-users.png',
+    items: []
+  },
+  {
+    title: 'Generators - Usecases',
+    text: 'Boom!',
+    img: './img/fetch-posts.png',
     items: []
   },
 
