@@ -19,18 +19,18 @@ export default [
   {
     title: 'Generators - Syntax',
     img: './img/syntax.png',
-    text: 'Same Syntax as a Function constructor, just add a * between the function keyword and the name',
+    text: 'Same as a Function constructor, just add a * between the function keyword and the name',
     items: [],
   },
   {
     title: 'Generators - Syntax',
-    text: 'Generators use the yield keyword as many times as is necessary, in place of a single return statement',
+    text: 'Yield returns a value many times as is necessary',
     img: './img/syntax.png',
     items: [],
   },
   {
     title: 'Generators - Syntax',
-    text: 'We then use the generator by defining a constatnt',
+    text: 'Attach the generator to a variable',
     img: './img/syntax.png',
     items: [],
   },
