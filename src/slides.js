@@ -11,7 +11,7 @@ export default [
     img: '',
     items: [
       'normal functions have one return',
-      'generators can return multiple values',
+      'generators return multiple values',
       'syntax is familiar',
       'use cases are...',
       'another thing about generators',
@@ -20,7 +20,7 @@ export default [
   {
     title: 'Generators - Syntax',
     img: '',
-    text: 'Same syntax as a normal Function constructor, just add a * between the function keyword and the name',
+    text: 'Same syntax as a normal function constructor, just add a * between the function keyword and the name',
     items: [],
   },
   {
@@ -31,7 +31,7 @@ export default [
   },
   {
     title: 'Generators - Syntax',
-    text: 'the Yield keyword is used as a Return',
+    text: 'The yield keyword is used as a return',
     img: './img/syntax.png',
     items: [],
   },
